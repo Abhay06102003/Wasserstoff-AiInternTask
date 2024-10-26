@@ -5,16 +5,19 @@ A robust, scalable Python application for processing PDF documents with advanced
 ## Features
 
 - **Intelligent Text Processing**
+
   - Dynamic summary generation based on document length
   - Advanced keyword extraction with configurable thresholds
   - Named entity recognition for domain-specific terminology
 
 - **Scalable Architecture**
+
   - Concurrent document processing using ThreadPoolExecutor
   - Configurable batch processing capabilities
   - Robust MongoDB integration with connection pooling
 
 - **Performance Monitoring**
+
   - Real-time performance metrics tracking
   - Memory usage monitoring
   - Execution time analysis
@@ -30,12 +33,13 @@ A robust, scalable Python application for processing PDF documents with advanced
 
 - Python 3.8+
 - MongoDB 4.4+
+- Docker (optional)
 - Sufficient storage for PDF processing
 - Memory requirements vary based on PDF sizes
 
 ## Dependencies
 
-```
+
 pymongo
 spacy
 PyPDF2
@@ -44,38 +48,46 @@ psutil
 matplotlib
 pandas
 numpy
-```
+
 
 ## Installation Instructions
 
-```
+- Clone the repository `git clone https://github.com/Abhay06102003/wasserstoff-AiInternTask.git`
+- `cp .env.example .env`
+- fill the required fields in the `.env` file
 
-```
+- Manual Installation
 
-## Docker Setup
+  - `pip install -r requirements.txt`
+  - `python main.py`
+  - `python test.py`
 
-[Note: Add Docker configuration and running instructions here]
+- Docker Installation
+  - `docker-compose up --build`
 
 ## Configuration
 
 1. Create a `.env` file in the project root with:
-```
-uri=your_mongodb_connection_string
-```
+
+
+`uri=your_mongodb_connection_string`
+
 
 2. Customize `ProcessingConfig` in `main.py` for your needs:
-```python
+
+python
 SHORT_DOC_THRESHOLD = 10  # pages
 MEDIUM_DOC_THRESHOLD = 50  # pages
 SHORT_SUMMARY_RATIO = 0.25
 MEDIUM_SUMMARY_RATIO = 0.2
 LONG_SUMMARY_RATIO = 0.15
-```
+
 
 ## Usage
 
 1. **Basic Usage**
-```python
+
+python
 from main import PDFProcessor
 
 processor = PDFProcessor(
@@ -89,40 +101,44 @@ result = processor.process_single_pdf("path/to/pdf")
 
 # Process entire folder
 results = processor.process_folder("path/to/folder", max_workers=4)
-```
+
 
 2. **Running Tests**
-```bash
+
+bash
 python -m unittest test.py -v
-```
+
 
 ## Output Structure
 
 Each processed document generates the following MongoDB structure:
-```json
+
+json
 {
-    "_id": "ObjectId",
-    "filename": "document.pdf",
-    "file_path": "/path/to/file",
-    "file_size": 1234567,
-    "page_count": 42,
-    "creation_date": "ISO-DATE",
-    "processing_status": "completed",
-    "summary": "Generated summary text...",
-    "keywords": ["keyword1", "keyword2", "..."],
-    "last_updated": "ISO-DATE"
+  "_id": "ObjectId",
+  "filename": "document.pdf",
+  "file_path": "/path/to/file",
+  "file_size": 1234567,
+  "page_count": 42,
+  "creation_date": "ISO-DATE",
+  "processing_status": "completed",
+  "summary": "Generated summary text...",
+  "keywords": ["keyword1", "keyword2", "..."],
+  "last_updated": "ISO-DATE"
 }
-```
+
 
 ## Performance Monitoring
 
 The system generates detailed performance reports including:
+
 - Processing time per document
 - Memory usage metrics
 - Visualization plots
 - Quality metrics for processed content
 
 Reports are saved as:
+
 - `performance_report.json`: Detailed metrics
 - `time_vs_size.png`: Processing time analysis
 - `memory_usage.png`: Memory consumption analysis
@@ -131,6 +147,7 @@ Reports are saved as:
 ## Error Handling
 
 The system implements comprehensive error handling:
+
 - MongoDB connection failures
 - PDF processing errors
 - Memory constraints
@@ -154,10 +171,9 @@ All errors are logged to `pdf_pipeline.log` and `pipeline_test_results.log`
 4. Push to branch
 5. Create Pull Request
 
-## License
-
-[Add your chosen license here]
 
 ## Contact
 
-[Add contact information here]
+Abhay Chourasiya
+21je0010@iitism.ac.in
+9508197014
