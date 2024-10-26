@@ -1,0 +1,34 @@
+version: "3.10"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Make sure you have a Dockerfile in your project
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017  # Environment variable for MongoDB URI
+    volumes:
+      - .:/app  # Mount the project directory into the container
+    depends_on:
+      - mongo
+    command: ["./start.sh"]  # Replace 'your_script.py' with the entry point of your script
+    networks:
+      - app-network
+
+  mongo:
+    image: mongo:5.0  # Or any compatible MongoDB version
+    environment:
+      MONGO_INITDB_DATABASE: Proj  # Initial database name
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example  # Change this password for security
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongo_data:
