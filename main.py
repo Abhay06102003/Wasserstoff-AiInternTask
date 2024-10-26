@@ -7,6 +7,7 @@ import time
 from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass
 from PyPDF2 import PdfReader
+import pymongo
 from pymongo import MongoClient, UpdateOne
 import spacy
 from collections import Counter
@@ -14,7 +15,7 @@ from datetime import datetime
 import psutil
 from pymongo.errors import ConnectionFailure, ServerSelectionTimeoutError
 from dotenv import load_dotenv
-import os
+
 load_dotenv()
 
 @dataclass

@@ -1,0 +1,226 @@
+2024-10-27 02:24:10,201 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "10.64s",
+  "memory_usage": "802.94MB"
+}
+2024-10-27 02:24:10,224 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf14.pdf', 'doc_id': '671d56e93cc285ec3dfdde1f', 'summary_length': 7090, 'keyword_count': 24}
+2024-10-27 02:24:11,571 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "12.03s",
+  "memory_usage": "808.16MB"
+}
+2024-10-27 02:24:11,571 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf6.pdf', 'doc_id': '671d56ea3cc285ec3dfdde20', 'summary_length': 6686, 'keyword_count': 37}
+2024-10-27 02:24:11,624 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "12.08s",
+  "memory_usage": "816.04MB"
+}
+2024-10-27 02:24:11,624 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf13.pdf', 'doc_id': '671d56ea3cc285ec3dfdde21', 'summary_length': 7818, 'keyword_count': 22}
+2024-10-27 02:24:27,569 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "15.94s",
+  "memory_usage": "25.50MB"
+}
+2024-10-27 02:24:27,596 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf5.pdf', 'doc_id': '671d56f33cc285ec3dfdde24', 'summary_length': 520, 'keyword_count': 0}
+2024-10-27 02:24:35,138 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "24.92s",
+  "memory_usage": "1818.15MB"
+}
+2024-10-27 02:24:35,138 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf7.pdf', 'doc_id': '671d56f33cc285ec3dfdde23', 'summary_length': 7421, 'keyword_count': 31}
+2024-10-27 02:24:52,682 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "25.09s",
+  "memory_usage": "1065.60MB"
+}
+2024-10-27 02:24:52,682 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf11.pdf', 'doc_id': '671d57063cc285ec3dfdde26', 'summary_length': 8662, 'keyword_count': 43}
+2024-10-27 02:25:09,215 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "69.68s",
+  "memory_usage": "4050.20MB"
+}
+2024-10-27 02:25:09,215 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf10.pdf', 'doc_id': '671d56ef3cc285ec3dfdde22', 'summary_length': 26349, 'keyword_count': 83}
+2024-10-27 02:25:15,583 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "6.37s",
+  "memory_usage": "-1108.34MB"
+}
+2024-10-27 02:25:15,584 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf15.pdf', 'doc_id': '671d572f3cc285ec3dfdde29', 'summary_length': 8190, 'keyword_count': 29}
+2024-10-27 02:25:17,854 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "2.27s",
+  "memory_usage": "110.61MB"
+}
+2024-10-27 02:25:17,855 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf8.pdf', 'doc_id': '671d57343cc285ec3dfdde2a', 'summary_length': 5317, 'keyword_count': 23}
+2024-10-27 02:25:37,426 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "19.57s",
+  "memory_usage": "423.72MB"
+}
+2024-10-27 02:25:37,427 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf16.pdf', 'doc_id': '671d57373cc285ec3dfdde2b', 'summary_length': 15997, 'keyword_count': 52}
+2024-10-27 02:25:49,763 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "12.34s",
+  "memory_usage": "1347.28MB"
+}
+2024-10-27 02:25:49,763 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf18.pdf', 'doc_id': '671d574a3cc285ec3dfdde2c', 'summary_length': 13711, 'keyword_count': 42}
+2024-10-27 02:25:52,200 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "77.06s",
+  "memory_usage": "2254.23MB"
+}
+2024-10-27 02:25:52,201 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf2.pdf', 'doc_id': '671d571a3cc285ec3dfdde27', 'summary_length': 65498, 'keyword_count': 86}
+2024-10-27 02:25:54,655 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "4.89s",
+  "memory_usage": "-573.07MB"
+}
+2024-10-27 02:25:54,656 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf9.pdf', 'doc_id': '671d57563cc285ec3dfdde2d', 'summary_length': 5516, 'keyword_count': 19}
+2024-10-27 02:25:57,056 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "4.85s",
+  "memory_usage": "-623.92MB"
+}
+2024-10-27 02:25:57,057 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf1.pdf', 'doc_id': '671d57593cc285ec3dfdde2e', 'summary_length': 7515, 'keyword_count': 20}
+2024-10-27 02:25:57,108 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "2.45s",
+  "memory_usage": "0.00MB"
+}
+2024-10-27 02:25:57,109 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf12.pdf', 'doc_id': '671d575b3cc285ec3dfdde2f', 'summary_length': 4846, 'keyword_count': 20}
+2024-10-27 02:26:17,124 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "84.44s",
+  "memory_usage": "-335.89MB"
+}
+2024-10-27 02:26:17,125 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf4.pdf', 'doc_id': '671d57253cc285ec3dfdde28', 'summary_length': 83501, 'keyword_count': 88}
+2024-10-27 02:26:39,115 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "147.49s",
+  "memory_usage": "-205.52MB"
+}
+2024-10-27 02:26:39,115 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf3.pdf', 'doc_id': '671d57033cc285ec3dfdde25', 'summary_length': 189631, 'keyword_count': 87}
+2024-10-27 02:26:39,116 - INFO - Performance Metrics: {
+  "function": "process_folder",
+  "execution_time": "159.58s",
+  "memory_usage": "570.42MB"
+}
+2024-10-27 02:26:39,116 - INFO - 
+    Processing Summary:
+    - Total documents: 17
+    - Successful: 17
+    - Failed: 0
+    
+2024-10-27 03:03:35,882 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "12.31s",
+  "memory_usage": "766.13MB"
+}
+2024-10-27 03:03:35,882 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf14.pdf', 'doc_id': '671d60254381cea380c4f073', 'summary_length': 7090, 'keyword_count': 24}
+2024-10-27 03:03:37,588 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "14.01s",
+  "memory_usage": "865.52MB"
+}
+2024-10-27 03:03:37,589 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf6.pdf', 'doc_id': '671d60264381cea380c4f074', 'summary_length': 6686, 'keyword_count': 37}
+2024-10-27 03:03:37,814 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "14.24s",
+  "memory_usage": "745.85MB"
+}
+2024-10-27 03:03:37,814 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf13.pdf', 'doc_id': '671d60274381cea380c4f075', 'summary_length': 7818, 'keyword_count': 22}
+2024-10-27 03:03:40,066 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "2.44s",
+  "memory_usage": "-178.71MB"
+}
+2024-10-27 03:03:40,095 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf5.pdf', 'doc_id': '671d60314381cea380c4f078', 'summary_length': 520, 'keyword_count': 0}
+2024-10-27 03:04:00,343 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "24.42s",
+  "memory_usage": "1782.49MB"
+}
+2024-10-27 03:04:00,360 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf7.pdf', 'doc_id': '671d60314381cea380c4f077', 'summary_length': 7421, 'keyword_count': 31}
+2024-10-27 03:04:14,404 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "34.31s",
+  "memory_usage": "1335.94MB"
+}
+2024-10-27 03:04:14,404 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf11.pdf', 'doc_id': '671d60364381cea380c4f079', 'summary_length': 8662, 'keyword_count': 43}
+2024-10-27 03:04:33,225 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "69.65s",
+  "memory_usage": "2660.77MB"
+}
+2024-10-27 03:04:33,225 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf10.pdf', 'doc_id': '671d602c4381cea380c4f076', 'summary_length': 26349, 'keyword_count': 83}
+2024-10-27 03:04:37,224 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "4.00s",
+  "memory_usage": "378.27MB"
+}
+2024-10-27 03:04:37,225 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf15.pdf', 'doc_id': '671d606a4381cea380c4f07d', 'summary_length': 8190, 'keyword_count': 29}
+2024-10-27 03:04:40,587 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "3.36s",
+  "memory_usage": "-284.79MB"
+}
+2024-10-27 03:04:40,588 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf8.pdf', 'doc_id': '671d606d4381cea380c4f07e', 'summary_length': 5317, 'keyword_count': 23}
+2024-10-27 03:05:00,633 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "60.28s",
+  "memory_usage": "1686.41MB"
+}
+2024-10-27 03:05:00,634 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf2.pdf', 'doc_id': '671d60554381cea380c4f07b', 'summary_length': 65498, 'keyword_count': 86}
+2024-10-27 03:05:07,388 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "26.80s",
+  "memory_usage": "559.53MB"
+}
+2024-10-27 03:05:07,388 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf16.pdf', 'doc_id': '671d60724381cea380c4f07f', 'summary_length': 15997, 'keyword_count': 52}
+2024-10-27 03:05:11,089 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "3.70s",
+  "memory_usage": "1685.64MB"
+}
+2024-10-27 03:05:11,090 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf9.pdf', 'doc_id': '671d608c4381cea380c4f081', 'summary_length': 5516, 'keyword_count': 19}
+2024-10-27 03:05:13,381 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "12.73s",
+  "memory_usage": "-123.11MB"
+}
+2024-10-27 03:05:13,401 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf18.pdf', 'doc_id': '671d60854381cea380c4f080', 'summary_length': 13711, 'keyword_count': 42}
+2024-10-27 03:05:15,333 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "4.24s",
+  "memory_usage": "-881.50MB"
+}
+2024-10-27 03:05:15,333 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf1.pdf', 'doc_id': '671d60904381cea380c4f082', 'summary_length': 7515, 'keyword_count': 20}
+2024-10-27 03:05:15,716 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "2.32s",
+  "memory_usage": "0.00MB"
+}
+2024-10-27 03:05:15,716 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf12.pdf', 'doc_id': '671d60924381cea380c4f083', 'summary_length': 4846, 'keyword_count': 20}
+2024-10-27 03:05:38,366 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "83.93s",
+  "memory_usage": "-1373.00MB"
+}
+2024-10-27 03:05:38,382 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf4.pdf', 'doc_id': '671d605d4381cea380c4f07c', 'summary_length': 83501, 'keyword_count': 88}
+2024-10-27 03:05:48,388 - INFO - Performance Metrics: {
+  "function": "process_single_pdf",
+  "execution_time": "130.57s",
+  "memory_usage": "-259.68MB"
+}
+2024-10-27 03:05:48,389 - INFO - Processed document: {'status': 'success', 'file': 'pdfs/pdf3.pdf', 'doc_id': '671d60424381cea380c4f07a', 'summary_length': 189631, 'keyword_count': 87}
+2024-10-27 03:05:48,394 - INFO - Performance Metrics: {
+  "function": "process_folder",
+  "execution_time": "144.82s",
+  "memory_usage": "422.51MB"
+}
+2024-10-27 03:05:48,394 - INFO - 
+    Processing Summary:
+    - Total documents: 17
+    - Successful: 17
+    - Failed: 0
+    
